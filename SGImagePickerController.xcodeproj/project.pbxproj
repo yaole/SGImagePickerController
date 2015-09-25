@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47CF3DDF1BAB09E600DD2F9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CF3DDE1BAB09E600DD2F9E /* main.m */; };
+		47CF3DE21BAB09E600DD2F9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CF3DE11BAB09E600DD2F9E /* AppDelegate.m */; };
+		47CF3DE51BAB09E600DD2F9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CF3DE41BAB09E600DD2F9E /* ViewController.m */; };
+		47CF3DE81BAB09E600DD2F9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47CF3DE61BAB09E600DD2F9E /* Main.storyboard */; };
+		47CF3DEA1BAB09E600DD2F9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47CF3DE91BAB09E600DD2F9E /* Images.xcassets */; };
+		47CF3DED1BAB09E600DD2F9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47CF3DEB1BAB09E600DD2F9E /* LaunchScreen.xib */; };
+		47CF3DF91BAB09E700DD2F9E /* SGImagePickerControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CF3DF81BAB09E700DD2F9E /* SGImagePickerControllerTests.m */; };
+		47CF3E041BAB0A3C00DD2F9E /* SGImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CF3E031BAB0A3C00DD2F9E /* SGImagePickerController.m */; };
+		47CF3F281BAE9BE200DD2F9E /* SGAssetsGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CF3F271BAE9BE200DD2F9E /* SGAssetsGroupController.m */; };
+		47CF3F2E1BAEB56100DD2F9E /* SGGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CF3F2D1BAEB56100DD2F9E /* SGGroupCell.m */; };
+		47CF3F311BAEBBE100DD2F9E /* SGCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CF3F301BAEBBE100DD2F9E /* SGCollectionController.m */; };
+		47CF3F371BAECC5000DD2F9E /* SGAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CF3F361BAECC5000DD2F9E /* SGAssetModel.m */; };
+		47CF3F3A1BAEE4C500DD2F9E /* SGPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CF3F391BAEE4C500DD2F9E /* SGPhotoBrowser.m */; };
+		47CF3F4A1BB19E3200DD2F9E /* sg_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47CF3F481BB19E3200DD2F9E /* sg_normal@2x.png */; };
+		47CF3F4B1BB19E3200DD2F9E /* sg_seleted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47CF3F491BB19E3200DD2F9E /* sg_seleted@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47CF3DF31BAB09E700DD2F9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47CF3DD11BAB09E600DD2F9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47CF3DD81BAB09E600DD2F9E;
+			remoteInfo = SGImagePickerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47CF3DD91BAB09E600DD2F9E /* SGImagePickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGImagePickerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CF3DDD1BAB09E600DD2F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47CF3DDE1BAB09E600DD2F9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47CF3DE01BAB09E600DD2F9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47CF3DE11BAB09E600DD2F9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47CF3DE31BAB09E600DD2F9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		47CF3DE41BAB09E600DD2F9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		47CF3DE71BAB09E600DD2F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47CF3DE91BAB09E600DD2F9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		47CF3DEC1BAB09E600DD2F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		47CF3DF21BAB09E700DD2F9E /* SGImagePickerControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGImagePickerControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CF3DF71BAB09E700DD2F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47CF3DF81BAB09E700DD2F9E /* SGImagePickerControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGImagePickerControllerTests.m; sourceTree = "<group>"; };
+		47CF3E021BAB0A3C00DD2F9E /* SGImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGImagePickerController.h; path = SGImagePickerController/SGImagePickerController.h; sourceTree = SOURCE_ROOT; };
+		47CF3E031BAB0A3C00DD2F9E /* SGImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGImagePickerController.m; path = SGImagePickerController/SGImagePickerController.m; sourceTree = SOURCE_ROOT; };
+		47CF3F261BAE9BE200DD2F9E /* SGAssetsGroupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGAssetsGroupController.h; path = ../SGAssetsGroupController.h; sourceTree = "<group>"; };
+		47CF3F271BAE9BE200DD2F9E /* SGAssetsGroupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGAssetsGroupController.m; path = ../SGAssetsGroupController.m; sourceTree = "<group>"; };
+		47CF3F2C1BAEB56100DD2F9E /* SGGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGGroupCell.h; path = ../SGGroupCell.h; sourceTree = "<group>"; };
+		47CF3F2D1BAEB56100DD2F9E /* SGGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGGroupCell.m; path = ../SGGroupCell.m; sourceTree = "<group>"; };
+		47CF3F2F1BAEBBE100DD2F9E /* SGCollectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGCollectionController.h; path = ../SGCollectionController.h; sourceTree = "<group>"; };
+		47CF3F301BAEBBE100DD2F9E /* SGCollectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGCollectionController.m; path = ../SGCollectionController.m; sourceTree = "<group>"; };
+		47CF3F351BAECC5000DD2F9E /* SGAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGAssetModel.h; path = ../SGAssetModel.h; sourceTree = "<group>"; };
+		47CF3F361BAECC5000DD2F9E /* SGAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGAssetModel.m; path = ../SGAssetModel.m; sourceTree = "<group>"; };
+		47CF3F381BAEE4C500DD2F9E /* SGPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGPhotoBrowser.h; path = ../SGPhotoBrowser.h; sourceTree = "<group>"; };
+		47CF3F391BAEE4C500DD2F9E /* SGPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGPhotoBrowser.m; path = ../SGPhotoBrowser.m; sourceTree = "<group>"; };
+		47CF3F481BB19E3200DD2F9E /* sg_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sg_normal@2x.png"; path = "../sg_normal@2x.png"; sourceTree = "<group>"; };
+		47CF3F491BB19E3200DD2F9E /* sg_seleted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sg_seleted@2x.png"; path = "../sg_seleted@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47CF3DD61BAB09E600DD2F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CF3DEF1BAB09E700DD2F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47CF3DD01BAB09E600DD2F9E = {
+			isa = PBXGroup;
+			children = (
+				47CF3DDB1BAB09E600DD2F9E /* SGImagePickerController */,
+				47CF3DF51BAB09E700DD2F9E /* SGImagePickerControllerTests */,
+				47CF3DDA1BAB09E600DD2F9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47CF3DDA1BAB09E600DD2F9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47CF3DD91BAB09E600DD2F9E /* SGImagePickerController.app */,
+				47CF3DF21BAB09E700DD2F9E /* SGImagePickerControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47CF3DDB1BAB09E600DD2F9E /* SGImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				47CF3F4C1BB5972100DD2F9E /* SGImagePickerController */,
+				47CF3DE01BAB09E600DD2F9E /* AppDelegate.h */,
+				47CF3DE11BAB09E600DD2F9E /* AppDelegate.m */,
+				47CF3DE31BAB09E600DD2F9E /* ViewController.h */,
+				47CF3DE41BAB09E600DD2F9E /* ViewController.m */,
+				47CF3DE61BAB09E600DD2F9E /* Main.storyboard */,
+				47CF3DE91BAB09E600DD2F9E /* Images.xcassets */,
+				47CF3DEB1BAB09E600DD2F9E /* LaunchScreen.xib */,
+				47CF3DDC1BAB09E600DD2F9E /* Supporting Files */,
+			);
+			path = SGImagePickerController;
+			sourceTree = "<group>";
+		};
+		47CF3DDC1BAB09E600DD2F9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47CF3DDD1BAB09E600DD2F9E /* Info.plist */,
+				47CF3DDE1BAB09E600DD2F9E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47CF3DF51BAB09E700DD2F9E /* SGImagePickerControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				47CF3DF81BAB09E700DD2F9E /* SGImagePickerControllerTests.m */,
+				47CF3DF61BAB09E700DD2F9E /* Supporting Files */,
+			);
+			path = SGImagePickerControllerTests;
+			sourceTree = "<group>";
+		};
+		47CF3DF61BAB09E700DD2F9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47CF3DF71BAB09E700DD2F9E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47CF3F4C1BB5972100DD2F9E /* SGImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				47CF3F481BB19E3200DD2F9E /* sg_normal@2x.png */,
+				47CF3F491BB19E3200DD2F9E /* sg_seleted@2x.png */,
+				47CF3E021BAB0A3C00DD2F9E /* SGImagePickerController.h */,
+				47CF3E031BAB0A3C00DD2F9E /* SGImagePickerController.m */,
+				47CF3F261BAE9BE200DD2F9E /* SGAssetsGroupController.h */,
+				47CF3F271BAE9BE200DD2F9E /* SGAssetsGroupController.m */,
+				47CF3F2F1BAEBBE100DD2F9E /* SGCollectionController.h */,
+				47CF3F301BAEBBE100DD2F9E /* SGCollectionController.m */,
+				47CF3F381BAEE4C500DD2F9E /* SGPhotoBrowser.h */,
+				47CF3F391BAEE4C500DD2F9E /* SGPhotoBrowser.m */,
+				47CF3F351BAECC5000DD2F9E /* SGAssetModel.h */,
+				47CF3F361BAECC5000DD2F9E /* SGAssetModel.m */,
+				47CF3F2C1BAEB56100DD2F9E /* SGGroupCell.h */,
+				47CF3F2D1BAEB56100DD2F9E /* SGGroupCell.m */,
+			);
+			path = SGImagePickerController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47CF3DD81BAB09E600DD2F9E /* SGImagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47CF3DFC1BAB09E700DD2F9E /* Build configuration list for PBXNativeTarget "SGImagePickerController" */;
+			buildPhases = (
+				47CF3DD51BAB09E600DD2F9E /* Sources */,
+				47CF3DD61BAB09E600DD2F9E /* Frameworks */,
+				47CF3DD71BAB09E600DD2F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGImagePickerController;
+			productName = SGImagePickerController;
+			productReference = 47CF3DD91BAB09E600DD2F9E /* SGImagePickerController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47CF3DF11BAB09E700DD2F9E /* SGImagePickerControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47CF3DFF1BAB09E700DD2F9E /* Build configuration list for PBXNativeTarget "SGImagePickerControllerTests" */;
+			buildPhases = (
+				47CF3DEE1BAB09E700DD2F9E /* Sources */,
+				47CF3DEF1BAB09E700DD2F9E /* Frameworks */,
+				47CF3DF01BAB09E700DD2F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47CF3DF41BAB09E700DD2F9E /* PBXTargetDependency */,
+			);
+			name = SGImagePickerControllerTests;
+			productName = SGImagePickerControllerTests;
+			productReference = 47CF3DF21BAB09E700DD2F9E /* SGImagePickerControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47CF3DD11BAB09E600DD2F9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = yyx;
+				TargetAttributes = {
+					47CF3DD81BAB09E600DD2F9E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					47CF3DF11BAB09E700DD2F9E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 47CF3DD81BAB09E600DD2F9E;
+					};
+				};
+			};
+			buildConfigurationList = 47CF3DD41BAB09E600DD2F9E /* Build configuration list for PBXProject "SGImagePickerController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47CF3DD01BAB09E600DD2F9E;
+			productRefGroup = 47CF3DDA1BAB09E600DD2F9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47CF3DD81BAB09E600DD2F9E /* SGImagePickerController */,
+				47CF3DF11BAB09E700DD2F9E /* SGImagePickerControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47CF3DD71BAB09E600DD2F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CF3DE81BAB09E600DD2F9E /* Main.storyboard in Resources */,
+				47CF3DED1BAB09E600DD2F9E /* LaunchScreen.xib in Resources */,
+				47CF3F4B1BB19E3200DD2F9E /* sg_seleted@2x.png in Resources */,
+				47CF3DEA1BAB09E600DD2F9E /* Images.xcassets in Resources */,
+				47CF3F4A1BB19E3200DD2F9E /* sg_normal@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CF3DF01BAB09E700DD2F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47CF3DD51BAB09E600DD2F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CF3DE51BAB09E600DD2F9E /* ViewController.m in Sources */,
+				47CF3F3A1BAEE4C500DD2F9E /* SGPhotoBrowser.m in Sources */,
+				47CF3DE21BAB09E600DD2F9E /* AppDelegate.m in Sources */,
+				47CF3F281BAE9BE200DD2F9E /* SGAssetsGroupController.m in Sources */,
+				47CF3F2E1BAEB56100DD2F9E /* SGGroupCell.m in Sources */,
+				47CF3F311BAEBBE100DD2F9E /* SGCollectionController.m in Sources */,
+				47CF3DDF1BAB09E600DD2F9E /* main.m in Sources */,
+				47CF3F371BAECC5000DD2F9E /* SGAssetModel.m in Sources */,
+				47CF3E041BAB0A3C00DD2F9E /* SGImagePickerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CF3DEE1BAB09E700DD2F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CF3DF91BAB09E700DD2F9E /* SGImagePickerControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47CF3DF41BAB09E700DD2F9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47CF3DD81BAB09E600DD2F9E /* SGImagePickerController */;
+			targetProxy = 47CF3DF31BAB09E700DD2F9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47CF3DE61BAB09E600DD2F9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47CF3DE71BAB09E600DD2F9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47CF3DEB1BAB09E600DD2F9E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47CF3DEC1BAB09E600DD2F9E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47CF3DFA1BAB09E700DD2F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47CF3DFB1BAB09E700DD2F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47CF3DFD1BAB09E700DD2F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SGImagePickerController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47CF3DFE1BAB09E700DD2F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SGImagePickerController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		47CF3E001BAB09E700DD2F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SGImagePickerControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGImagePickerController.app/SGImagePickerController";
+			};
+			name = Debug;
+		};
+		47CF3E011BAB09E700DD2F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SGImagePickerControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGImagePickerController.app/SGImagePickerController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47CF3DD41BAB09E600DD2F9E /* Build configuration list for PBXProject "SGImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CF3DFA1BAB09E700DD2F9E /* Debug */,
+				47CF3DFB1BAB09E700DD2F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47CF3DFC1BAB09E700DD2F9E /* Build configuration list for PBXNativeTarget "SGImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CF3DFD1BAB09E700DD2F9E /* Debug */,
+				47CF3DFE1BAB09E700DD2F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47CF3DFF1BAB09E700DD2F9E /* Build configuration list for PBXNativeTarget "SGImagePickerControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CF3E001BAB09E700DD2F9E /* Debug */,
+				47CF3E011BAB09E700DD2F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47CF3DD11BAB09E600DD2F9E /* Project object */;
+}
